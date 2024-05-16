@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <TextView
+        android:text="Welcome To Calculator"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="We recommend subscribing to a limited-term plan"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="@color/red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="28dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:paddingVertical="12dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@+id/btn_5_times"
+                android:text="Buy 5 use"
+                android:textSize="28sp"
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@+id/btn_10_times"
+                android:text="Buy 10 use"
+                android:layout_marginTop="12dp"
+                android:textSize="28sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@+id/btn_15_times"
+                android:text="Buy 15 use"
+                android:layout_marginTop="12dp"
+                android:textSize="28sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@+id/btn_subscribe"
+                android:text="Subscribe"
+                android:layout_marginTop="12dp"
+                android:textSize="28sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
